@@ -18,6 +18,7 @@ def TriangleDual(target, x0, eps, grad = approx_fprime, step = lambda k: (k+1)/L
         xk.append(x_new)
         grad_sum += grad(x_new, target, 0.0000001)*step(index)
         y_new = (-1/2*grad_sum)
+        alpha 
         zk.append(alpha(index)*(y_new) + (1 - alpha(index))*zk[index - 1])
         if index >= num_of_steps :
             return zk

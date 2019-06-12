@@ -1,6 +1,9 @@
 import numpy as np
 from numpy.linalg import norm
 from scipy.optimize import approx_fprime
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 def Dichotom (target, left, right, eps = 0.00001):
     a = left

@@ -11,6 +11,8 @@ Sample:
 Results after 1000 steps:
 
   Dual triangle method (1,72066430786	-0,444433854843) .
+  
   Optimyzed Dual triangle method (1,72403238111	-0,446516173029) .
+  
   minimize(method='BFGS') (1,72403722752	-0,446518440485) .
 

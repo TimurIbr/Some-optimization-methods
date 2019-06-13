@@ -1,0 +1,59 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.5.0.568
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = 125.738776592492
+xMax = 1870.72080872749
+xTickUnit = 200
+xGridUnit = 200
+xShowGrid = 1
+xAutoTick = 0
+xLabel = Num of steps N
+yMin = 5.32370808106667
+yMax = 14.4247207610667
+yTickUnit = 1
+yGridUnit = 1
+yShowGrid = 1
+yLabel = - log( Norm2(x_N - x*) / Norm2(x_0 - x*) )
+AxesColor = clBlue
+GridColor = 0x00669900
+ShowLegend = 1
+Radian = 1
+Title = Accuracy of Dual Methods
+
+[PointSeries1]
+FillColor = clBlue
+LineColor = clBlue
+Size = 3
+Style = 0
+LineSize = 2
+LineStyle = 0
+LabelPosition = 1
+PointCount = 11
+Points = 0,0.02862299247182492;200,3.079972359787336;400,4.435804071972331;600,5.0357123473360605;800,5.8115810463661735;1000,6.088690937265873;1200,6.766753437321509;1400,6.879596344233786;1600,7.552053372928456;1800,7.541840171085228;2000,8.241467603516703;
+LegendText = log Accuracy of Triangle Dual Method
+
+[PointSeries2]
+FillColor = clBlack
+LineColor = clBlack
+Size = 3
+Style = 0
+LineSize = 2
+LineStyle = 0
+LabelPosition = 1
+PointCount = 9
+Points = 0,0.028622940486852905;200,6.8085916875920125;400,6.7647443610262625;600,10.668666229423732;800,10.519891668740831;1000,12.696768793204308;1200,14.838253319489052;1400,14.417333214473974;1600,14.417333214473974;
+LegendText = log Accuracy of Optimazed Triangle Dual Method
+
+[Data]
+TextLabelCount = 0
+FuncCount = 0
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
